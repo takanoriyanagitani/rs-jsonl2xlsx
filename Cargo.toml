@@ -3,6 +3,19 @@ name = "rs-jsonl2xlsx"
 version = "0.1.0"
 edition = "2024"
 
+description = "Converts the json lines to an xlsx file."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-jsonl2xlsx"
+homepage = "https://github.com/takanoriyanagitani/rs-jsonl2xlsx"
+documentation = "https://docs.rs/rs-jsonl2xlsx/latest"
+keywords = ["json", "jsonl", "excel", "wasi"]
+category = ["command-line-utilities"]
+
+exclude = [
+    "opt.wasm",
+    "rs-jsonl2xlsx.wasm",
+]
+
 [lints.rust]
 unsafe_code = "forbid"
 
