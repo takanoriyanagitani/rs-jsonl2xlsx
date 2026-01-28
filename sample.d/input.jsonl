@@ -1,0 +1,2 @@
+{"id":1,"category":"ui","input_setup":"launch","input_task":"to home","expected":"home","edge_result":"pass","edge_date":"2026-01-27","edge_tester":"JD"}
+{"id":2,"category":"ui","input_setup":"stop","input_task":"to home","expected":"500","edge_result":"pass","edge_date":"2026-01-27","edge_tester":"JD"}
