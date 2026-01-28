@@ -2,10 +2,10 @@ use std::process::ExitCode;
 
 use clap::Parser;
 
-use rs_jsonl2xlsx::stdin2jsons2sheet2stdout;
-use rs_jsonl2xlsx::XErr;
 use rs_jsonl2xlsx::BUF_CAP_DEFAULT;
 use rs_jsonl2xlsx::SHEET_NAME_DEFAULT;
+use rs_jsonl2xlsx::XErr;
+use rs_jsonl2xlsx::stdin2jsons2sheet2stdout;
 
 #[derive(Parser, Debug)]
 #[command(version, about, long_about = None)]
